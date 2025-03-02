@@ -1,105 +1,174 @@
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors. Modified by Kyle Fraser">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Sprout</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
-
-    
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprout - About</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+        .offcanvas {
+            width: 250px;
         }
-      }
+        .main-image {
+            max-width: 60%; /* Ensures the image is responsive */
+            height: auto; /* Maintains aspect ratio */
+            margin-top: 20px; /* Adds some space above the image */
+        }
+        .bg {
+            background-color: #eee7de;
+            min-height : auto%;
+            min-width : 100%;
+            background-size:100%;
+            background-repeat:no-repeat;
+        }
+        .card-cover {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        .text-tone {
+            color: #85907a;
+        }
+
     </style>
+</head>
+<body class="bg">
+    <div class="container-fluid">
+        </div>
+        <button class="navbar-toggler px-3 py-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+        </button>
+        <main class="px-3 container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <img src="assets/logo_peach.png" alt="Sprout logo" class="main-image mx-auto d-block">
+            <div class="mx-auto py-3 flex align-content-center">
+            </div>
+            <div class="mx-auto py-3 flex align-content-center">
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/high-angle-baby-choosing-what-eat.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-5 text-tone text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Infants and Children</h2>
+                  <a href="infants-children.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
 
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/honey.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-tone text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Adults</h2>
+                  <a href="adults.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/IMG_2830.JPG');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-tone text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Referral pathways</h2>
+                  <a href="referral.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/IMG_2821.JPG');">
+                <div class="d-flex flex-column h-100 p-5 pb-5 text-tone text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fees and Cancellations</h2>
+                  <a href="fees.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/francesco-cavallini-HN1-Gfs9Mxk-unsplash.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-tone text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Guest Speaking and Consulting Services</h2>
+                  <a href="consulting.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/family-morning-breakfast-by-table.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-tone text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">About Me</h2>
+                  <a href="about.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+          </div>
     
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Sprout</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="book.html">Book Now</a>
-        <a class="nav-link" href="contact.html">Contact</a>
-        <a class="nav-link active" href="learn.html">Learn more</a>
-      </nav>
+        </main>
     </div>
-  </header>
+    </div>
 
-  <main class="px-3">
-    <h1>Im glad you're here</h1>
-    <p>I’ve spent 15 years practicing as a clinical dietitian, working with clients one on one and in group settings to meet their nutrition and health needs. I’ve had the privilege of working with countless adults and children, having practiced locally in the public health service as well as a large tertiary hospital in Sydney. I’ve met some inspiring people along the way and look forward to hearing your story.</p>
-    <p>I also know what it feels like to sit on the other side of the consulting table and know that a good experience with a health professional, where you feel seen and heard, can be make or break for your healing and progress. I want to be that person for you, who validates your experience, understands your situation, and walks hand in hand with you towards better health.</p>
-    <p>I’m passionate about prevention and the research is clear. Working towards a balanced, healthy diet, whatever that looks like for you, not only reduces your risk of many health complications, but it can improve your physical and mental wellbeing long into the future. And if you are unfortunately experiencing health concerns, the good news is many nutrition related health problems can be reduced or even reversed with a commitment to dietary change. Eating well translates to living well, and I’m here to help you live the best version of your life you can, with small, sustainable strategies you can continue into the long term. No fads, just plenty of good food to nourish your gut, your mind and your body.</p>
-
-    <p>I’ve worked with people from all walks and stages of life, from new parents with growing babies to individuals living well into their 90s.As a parent myself,I know the hustle well. Kids are fussy and there never seems to be enough hours in the day. We’ll work together with care and empathy, knowing that no two children are the same and that life is busy, beautiful and messy.</p>
-    <p>If you’re here for yourself, then I’m here for you. I’ve worked extensively with the adult population and have a diverse skillset, supporting people with conditions of the heart, lungs, liver, kidneys and digestive system. I’ve helped people prepare for and recover from major surgery and supported people undergoing cancer treatment therapies. If you take some or all of your nutrition through a feeding tube, I am able to support you with your enteral feeding plan.</p>
-
-    <p class="lead">Qualifications</p>
-Accredited Practicing Dietitian
-Bachelor Nutrition and Dietetics (Honors Class 1) University of Newcastle 2009
-Post Graduate Certificate in Paediatric Nutrition, Royal Children’s Hospital, Melbourne, 2019
-Master of Applied Science (Research), University of Sydney, 2022
-
-<p class="lead"> Services Provided</p>
-
-Infants and Children:
-Faltering Growth (Slower than expected infant growth)
-Eating Disorders 
-Infant tube feeding
-Diabetes
-Fussy Eating/ Improving Food Diveristy
-Constipation and gastrointestinal issues
-Micronutrient Deficiencies 
-Other issues? please get in touch
-
-Adults:
-Chronic disease management including heart disease and diabetes
-Healthy eating and lifestyle management
-Healthy Ageing 
-Womens Health (prenatal , postnatal and perimenopause)
-Liver Disease
-Kidney Disease
-Pre and Post surgery nutrition management
-Gastrointestinal healthand gastrointestinal surgery
-Eating Disorders
-Recovery from illness and malnutrition 
-Nutrition support through cancer therapy
-Enteral feeding (nutrition via a feeding tube)
-Other issues? Please get in touch
-  </main>
-
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-  </footer>
+<!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebarLabel">Navigation</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="infants-children.html">Infants and Children</a></li>
+            <li class="nav-item"><a class="nav-link" href="adults.html">Adults</a></li>
+            <li class="nav-item"><a class="nav-link" href="referral.html">Referral Pathways</a></li>
+            <li class="nav-item"><a class="nav-link" href="fees.html">Fees and Cancellations</a></li>
+            <li class="nav-item"><a class="nav-link" href="consulting.html">Guest Speaking & Consulting</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.halaxy.com/book/sprout-family-dietetics/location/1255061">Book Now</a></li>
+        </ul>
+    </div>
 </div>
 
-
-    
-  </body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
