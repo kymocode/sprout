@@ -1,0 +1,61 @@
+.offcanvas {
+  width: 250px;
+}
+
+.main-image {
+  max-width: 60%;
+  /* Ensures the image is responsive */
+  height: auto;
+  /* Maintains aspect ratio */
+  margin-top: 20px;
+  /* Adds some space above the image */
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.img-logo {
+  float: right;
+}
+
+.img-social {
+  max-height: 32px;
+  width: auto;  
+}
+
+
+.footer-on-image {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  text-align: center;
+
+}
+
+        .btn.btn-primary:hover,
+        .btn.btn-primary:focus,
+        .btn.btn-primary:active,
+        .btn.btn-primary.active {
+          border-color:#85907a;
+                  }
+        .btn.btn-primary {
+                    color: #ffffff;
+          background-color: #85907a;
+          border-color:#85907a;
+
+        }.btn.btn-secondary { 
+          background-color: #ffffff;
+          color: #85907a; 
+          border-color:#85907a;
+        }
+        .btn.btn-nav-secondary { 
+          background-color: #ffffff;
+          color: #85907a; 
+          border-color:#ffffff;
+        }
